@@ -22,5 +22,6 @@
     "typescript": "5.1.3"
   },
   "devDependencies": {
+    "graphql-tag": "^2.12.6"
   }
 }
