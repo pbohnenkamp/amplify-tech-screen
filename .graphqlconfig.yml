@@ -11,5 +11,6 @@ projects:
         generatedFileName: src/API.ts
         docsFilePath: src/graphql
 extensions:
+  endpoints:
   amplify:
     version: 3

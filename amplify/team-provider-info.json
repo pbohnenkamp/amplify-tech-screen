@@ -17,6 +17,12 @@
       },
       "api": {
         "amplifytechscreen": {}
+      },
+      "hosting": {
+        "amplifyhosting": {
+          "appId": "dbsln9b2yjgm1",
+          "type": "cicd"
+        }
       }
     }
   }

@@ -1,0 +1,10 @@
+{
+  "name": "Client Extended GraphQL Schema",
+  "includes": ["*"],
+  "excludes": ["**/build/**"],
+  "extensions": {
+    "endpoints": {
+
+    }
+  }
+}

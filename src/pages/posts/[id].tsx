@@ -2,11 +2,11 @@ import React from "react";
 import {API, withSSRContext} from 'aws-amplify';
 import {getPost} from '@/graphql/queries';
 import {GetServerSideProps} from 'next';
-import {PostDto} from "@/app/posts/PostDto";
+import {PostDto} from "@/application/posts/PostDto";
 import {useRouter} from "next/router";
 import styles from "@/styles/Home.module.css";
 import {deletePost} from "@/graphql/mutations";
-import {handleAmplifyApiError} from "@/app/utils/handleAmplifyApiError";
+import {handleAmplifyApiError} from "@/application/utils/handleAmplifyApiError";
 import Head from "next/head";
 
 export const getServerSideProps: GetServerSideProps = async ({req, params}) => {

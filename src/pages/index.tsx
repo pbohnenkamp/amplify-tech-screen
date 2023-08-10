@@ -9,8 +9,8 @@ import styles from '../styles/Home.module.css';
 import {GetServerSideProps} from 'next';
 import {CreatePostMutation, CreatePostMutationVariables} from "@/API";
 import {GRAPHQL_AUTH_MODE} from "@aws-amplify/auth";
-import {PostDto} from "@/app/posts/PostDto";
-import {handleAmplifyApiError} from "@/app/utils/handleAmplifyApiError";
+import {PostDto} from "@/application/posts/PostDto";
+import {handleAmplifyApiError} from "@/application/utils/handleAmplifyApiError";
 
 Amplify.configure({...awsExports, ssr: true});
 
