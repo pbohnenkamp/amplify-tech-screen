@@ -1,0 +1,12 @@
+{
+  "AppSyncApiName": "amplifytechscreen",
+  "DynamoDBBillingMode": "PAY_PER_REQUEST",
+  "DynamoDBEnableServerSideEncryption": false,
+  "AuthCognitoUserPoolId": {
+    "Fn::GetAtt": [
+      "authamplifytechscreen5743fabf",
+      "Outputs.UserPoolId"
+    ]
+  },
+  "AuthModeLastUpdated": "2023-06-27T18:33:17.446Z"
+}
